@@ -21,7 +21,40 @@
   <body>
 
 
-    <header class="header pt-4 pb-3">
+  <header>
+    <nav class="container d-flex flex-row align-items-center justify-content-between">
+
+      <a href=""><img src="img/nissi-logo.png" alt="" class="logo my-3"></a>
+
+      <button class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+      <div class="menu_items d-flex flex-column justify-content-around">
+        <div class="menu_link text-center">
+          <a href="#">About</a>
+        </div>
+        <div class="menu_link text-center">
+          <a href="#">Services</a>
+        </div>
+        <div class="menu_link text-center">
+          <a href="#">Education</a>
+        </div>
+        <div class="menu_link text-center">
+          <a href="#">Patient Portal</a>
+        </div>
+        <div class="menu_link text-center">
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+
+    <!--<header class="header pt-4 pb-3">
       <nav class="container">
         <a href="" class="logo"><img src="img/nissi-logo.png" alt=""></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -34,7 +67,23 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-   </header>
+   </header>-->
+
+
+
+  <!--<header class="py-3">
+    <nav class="container">
+      <div class="nav__logo"><a href="" class="logo"><img src="img/nissi-logo.png" alt=""></a></div>
+      <span class="nav__toggle"><i class="fa fa-bars"></i></span>
+      <ul class="menu">
+        <li class="menu__item"><a href="#">About</a></li>
+        <li class="menu__item"><a href="#">Services</a></li>
+        <li class="menu__item"><a href="#">Education</a></li>
+        <li class="menu__item"><a href="#">Patient Portal</a></li>
+        <li class="menu__item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>-->
 
 
 
@@ -82,16 +131,21 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <script src="js/scripts.js"></script>
 
 
 
-      <script>
-        var hamburger = $(".hamburger");
-        hamburger.on("click", function(e) {
-          hamburger.toggleClass("is-active");
-          // Do something else, like open/close menu
+
+    <!--  <script>
+        $(document).ready(function() {
+          $('.nav__toggle').on('click', function() {
+            $('.nav').toggleClass('display');
+          });
+          $('.nav__toggle').on('click', function() {
+            $('.menu__item').toggleClass('display');
+          });
         });
-      </script>
+      </script>-->
 
 
   </body>
