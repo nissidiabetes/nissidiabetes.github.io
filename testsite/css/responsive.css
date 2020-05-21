@@ -25,8 +25,15 @@
   opacity: 1;
  }
  .menu-link a {font-size: 13px;color: #0C0C7B;opacity: 1;}
- .logo {width:125px;}
- header {height: 80px;}
+
+ header {
+ 	height: 90px;
+ }
+ .logo {
+ 	width: 160px;
+ }
+
+
  /*.logo-container img {width:180px;height:80px;}
  .hamburger{display:none;}
  .menu-link-container {display: flex !important;}
