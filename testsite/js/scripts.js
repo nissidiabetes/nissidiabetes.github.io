@@ -13,7 +13,7 @@ $(document).ready(function() {
     // Do something else, like open/close menu
     $('body').toggleClass("overflow-hide");
     $('.logo-link-light').toggleClass("logo-hide");
-    $('.logo-link-dark').toggleClass("logo-show");    
+    $('.logo-link-dark').toggleClass("logo-show");
     $('.menu-link-container').toggleClass("open");
 
 
@@ -21,3 +21,7 @@ $(document).ready(function() {
 
   });
 });
+
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
