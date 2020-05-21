@@ -1,8 +1,3 @@
-
-
-
-
-
 $(document).ready(function() {
   // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
@@ -21,6 +16,7 @@ $(document).ready(function() {
 
   });
 });
+
 
 let vh = window.innerHeight * 0.01;
 // Then we set the value in the --vh custom property to the root of the document
