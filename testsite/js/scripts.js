@@ -12,7 +12,7 @@ $(document).ready(function() {
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
     $('body').toggleClass("overflow-hide");
-    $('.menu_items').toggleClass("reveal");
+    $('.menu-link-container').toggleClass("open");
 
 
   });
