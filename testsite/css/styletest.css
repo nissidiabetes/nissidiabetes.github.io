@@ -192,7 +192,7 @@ header {
 .home {
 	position:relative;
 	z-index: 8;
-	min-height: 740px;
+	min-height: 640px;
 }
 h1 {
 	font-family: miller-banner, serif;
