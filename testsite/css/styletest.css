@@ -50,7 +50,7 @@ header {
 	background:#020050;
 	text-align: center;
 	height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  /*height: calc(var(--vh, 1vh) * 100);*/
 	position: absolute;
 	top:0;
 	left:0;
@@ -191,6 +191,7 @@ header {
 .home {
 	position:relative;
 	z-index: 8;
+	min-height: 800px;
 }
 h1 {
 	font-family: miller-banner, serif;
