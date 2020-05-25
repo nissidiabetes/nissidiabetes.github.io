@@ -7,10 +7,13 @@ $(document).ready(function() {
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
     $('body').toggleClass("overflow-hide");
-
     $('.logo-link-light').toggleClass("logo-hide");
     $('.logo-link-dark').toggleClass("logo-show");
+    $('.menu-link-container').css('margin-top', 0).promise().done(function(){
     $('.menu-link-container').toggleClass("open");
+});
+
+
 
 
 

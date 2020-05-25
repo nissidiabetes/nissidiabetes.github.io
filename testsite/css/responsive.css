@@ -18,7 +18,7 @@
    header {height: 90px;}
    .logo {width: 160px;}
    .hamburger{display:none;}
-   .menu-link-container {width: auto;background:white;text-align: center;height: auto !important;position: relative;top:0;left:0;display: flex;flex-direction: row;padding: 0px;opacity: 1;}
+   .menu-link-container {width: auto;background:white;text-align: center;height: auto !important;position: relative;top:0;left:0;display: flex;flex-direction: row;padding: 0px;opacity: 1;margin-top: 0;}
    .menu-link a {font-size: 13px;color: #0C0C7B;opacity: 1;}
 
    h1 {font-size:50px;}

@@ -61,6 +61,7 @@ header {
   opacity:0;
   -webkit-transition: all 0.3s ease-out 0.2s;
   transition: all 0.3s ease-out 0.2s;
+	margin-top: -100vh;
 }
 .menu-link a {
 	font-size: 13px;
@@ -191,7 +192,7 @@ header {
 .home {
 	position:relative;
 	z-index: 8;
-	min-height: 800px;
+	min-height: 740px;
 }
 h1 {
 	font-family: miller-banner, serif;
