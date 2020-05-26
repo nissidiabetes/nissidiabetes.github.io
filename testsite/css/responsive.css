@@ -6,7 +6,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -22,7 +22,8 @@
 
    .nissi-home {padding-top: 120px;}
    h1 {font-size:50px;}
-   .tagline {font-size:20px;}
+   .tagline {font-size:18px;}
+   .home-text{height: auto;}
 }
 
 /* Medium devices (tablets, 1200px and up) */

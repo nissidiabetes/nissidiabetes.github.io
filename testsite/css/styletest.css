@@ -28,7 +28,7 @@ header {
 	width: 100%;
 	height: 100px;
 	background: white;
-	z-index: 9;
+	z-index: 50;
 	-webkit-transition: all 0.3s ease-out 0.2s;
 	transition: all 0.3s ease-out 0.2s;
 }
@@ -39,9 +39,9 @@ header.mobile-nav-open {
 }
 
 .logo {
-	width: 160px;
+	width: 200px;
 	position: relative;
-	z-index: 10;
+	z-index: 100;
 }
 .logo-link-dark {
 	display: none;
@@ -80,6 +80,7 @@ header.mobile-nav-open {
   opacity:0;
   -webkit-transition: all 0.3s ease-out 0.2s;
   transition: all 0.3s ease-out 0.2s;
+	z-index: 0;
 }
 .mobile-nav.menu-link-container .menu-link a {
 	font-size: 12px;
@@ -110,6 +111,9 @@ header.mobile-nav-open {
 .overflow-hide {
 	overflow: hidden;
 }
+.mobile-nav-open{
+	z-index: 25 !important;
+}
 
 
 
@@ -130,7 +134,7 @@ header.mobile-nav-open {
   margin: 0;
   overflow: visible;
 	position: relative;
-	z-index: 10;
+	z-index: 100;
 }
 .hamburger:hover {
     opacity: 0.7;
@@ -204,16 +208,25 @@ header.mobile-nav-open {
 
 
 
-
+section {
+	position:relative;
+	z-index: 10;
+}
 .nissi-home {
 	background-color: #F8EFE2;
 	padding-top: 100px;
-
+	min-height: 640px;
+	position:relative;
 }
-img .main-image {
+.main-image {
 	width:355px;
 }
-
+.mobile-main-image {
+	margin-bottom:-40px;
+}
+.home-text{
+	height: 100%;
+}
 
 
 
@@ -232,8 +245,9 @@ h1 {
 }
 .tagline {
 	color: #020050;
-	font-size:18px;
-	font-weight:400;
+	font-family: quasimoda, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 	line-height: 32px;
 }
 .divider {
@@ -248,10 +262,12 @@ h1 {
 	width:225px;
 	height:45px;
 	border-radius: 50px;
-	font-size: 16px;
+	font-size: 14px;
+	line-height: 14px;
 	letter-spacing: 2px;
 	font-weight: 600;
-	margin: auto;
+	margin: 40px 0 0;
+
 }
 .tel {
 	width: 210px;
@@ -266,8 +282,4 @@ h1 {
 	min-height:115px;
 	/*position: absolute;
 	bottom:0;*/
-}
-.main-image {
-	width: 270px;
-	margin-top: -75px;
 }
