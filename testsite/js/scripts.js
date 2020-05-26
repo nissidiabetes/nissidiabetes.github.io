@@ -6,8 +6,9 @@ $(document).ready(function() {
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
-    $('body').toggleClass("overflow-hide");
-    $('.mobile-nav').css('z-index', '25');
+    $('body').toggleClass("overflow-hidden");
+    //$('.logo-link-light').toggle();
+    //$('.logo-link-dark').toggle();
     $('.mobile-nav').toggleClass("open");
 
   });
