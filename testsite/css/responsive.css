@@ -39,6 +39,9 @@
    .np-bio, .np-membership {line-height: 24px;font-size: 16px;}
    .np-name {font-size: 18px;}
    .np-membership-title {font-size: 16px;}
+
+   .service-img {min-width:200px;width:200px;}
+   .service-title h4 {font-size: 30px;}
 }
 
 /* Medium devices (tablets, 1200px and up) */

@@ -19,26 +19,21 @@ $(document).ready(function() {
 
 
 
-
-
-
-let vh = window.innerHeight * 0.01;
-// Then we set the value in the --vh custom property to the root of the document
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-
-
-let imgHeight = $('.main-image').height();
-let imgMargin = (imgHeight / 1.8) * -1;
+let servicesHeight = $('.nissi-services').height();
+let servicesHeightAdj = servicesHeight - 120;
 
 $(document).ready(function(){
     $('.nissi-home').css('height', $(window).height());
-  //  $('.main-image').css('margin-top', imgMargin);
+    //$('.services-outer').css('height', servicesHeightAdj);
+
     // Comma, not colon ----^
 });
 $(window).resize(function(){
     $('.nissi-home').css('height', $(window).height());
-  //  $('.main-image').css('margin-top', imgMargin);
+    //$('.services-outer').css('height', servicesHeightAdj);
 
     // Comma, not colon ----^
 });
+
+
+$(".year").text( (new Date).getFullYear() );
