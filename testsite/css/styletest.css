@@ -352,22 +352,27 @@ section {
 }
 .np-name {
 	color: #020050;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 0.5px;
 }
 .np-membership-title {
 	color: #8BB0DA;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: 0.5px;
 }
 .np-bio, .np-membership {
 	color: #746F6F;
-	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 0.5px;
 	line-height: 45px;
+}
+.np-bio {
+	font-size: 18px;
+}
+.np-membership {
+	font-size: 16px;
 }
 .np-photo img {
 	width: 268px;

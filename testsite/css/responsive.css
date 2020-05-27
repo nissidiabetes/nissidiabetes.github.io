@@ -36,7 +36,9 @@
    .vision {border-left:2px solid #8BB0DA;}
    .mission {border-left:2px solid #FBB2AB;}
 
-   .np-bio, .np-membership {line-height: 24px;}
+   .np-bio, .np-membership {line-height: 24px;font-size: 16px;}
+   .np-name {font-size: 18px;}
+   .np-membership-title {font-size: 16px;}
 }
 
 /* Medium devices (tablets, 1200px and up) */
