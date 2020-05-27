@@ -54,13 +54,13 @@ h4 {
 	margin: 40px auto;
 }
 .divider-blue {
-	color: #0C0C7B;
+	background-color: #0C0C7B;
 }
 .divider-lightblue {
 	background-color: #8BB0DA;
 }
 .divider-pink {
-	color: #FBB2AB;
+	background-color: #FBB2AB;
 }
 
 
@@ -278,10 +278,10 @@ section {
 
 .tagline {
 	color: #020050;
-	font-family: quasimoda, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 32px;
+	letter-spacing: 0.5px;
 }
 .btn {
 	width:225px;
@@ -326,4 +326,52 @@ section {
 	width: 100%;
 	max-width: 620px;
 	margin: auto
+}
+
+.mv-outer {
+	background-color: #F8EFE2;
+}
+.vision, .mission {
+	width:100%;
+	border-left:0;
+}
+.vision p, .mission p {
+	color: #020050;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 45px;
+	letter-spacing: 0.5px;
+}
+
+.np-outer {
+	background-color: #ffffff;
+}
+.np-info-inner {
+	width:100%;
+	max-width: 860px;
+}
+.np-name {
+	color: #020050;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.np-membership-title {
+	color: #8BB0DA;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.np-bio, .np-membership {
+	color: #746F6F;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	line-height: 45px;
+}
+.np-photo img {
+	width: 268px;
+	box-shadow: 4px 4px 8px rgba(0,0,0, 0.15);
+	border-radius: 134px;
+	background: transparent;
 }
