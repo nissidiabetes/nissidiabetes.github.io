@@ -25,23 +25,28 @@
    .desktop-nav.menu-link-container {width: auto;background:white;text-align: center;height: auto;position: relative;top:0;left:0;display: flex;flex-direction: row;padding: 0px;}
    /*.mobile-nav.menu-link-container {display: none;}*/
 
+   a.anchor {top: -120px;}
+
    .nissi-home {padding-top: 120px;}
 
-   .tagline {font-size:18px;}
+   .tagline {font-size:20px;}
    .home-text{height: auto;}
 
 
    .vision, .mission {width:50%;}
-   .vision p, .mission p {line-height: 26px;}
+   .vision p, .mission p {line-height: 30px;font-size: 17px;}
    .vision {border-left:2px solid #8BB0DA;}
    .mission {border-left:2px solid #FBB2AB;}
+   ul.np-membership li{padding-bottom: 0px;}
 
    .np-bio, .np-membership {line-height: 24px;font-size: 16px;}
    .np-name {font-size: 18px;}
    .np-membership-title {font-size: 16px;}
 
-   .service-img {min-width:200px;width:200px;}
-   .service-title h4 {font-size: 30px;}
+   .service-img {min-width:200px;width:200px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+   .service-title h4 {font-size: 28px;}
+
+   ul.insurance-list li{display: inline-block;}
 }
 
 /* Medium devices (tablets, 1200px and up) */

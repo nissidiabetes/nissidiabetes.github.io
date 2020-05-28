@@ -75,6 +75,7 @@ header {
 	z-index: 50;
 	-webkit-transition: all 0.3s ease-out 0.2s;
 	transition: all 0.3s ease-out 0.2s;
+	border-bottom: 0.5px solid #eee;
 }
 header.mobile-nav-open {
 	background:#020050;
@@ -98,7 +99,7 @@ header.mobile-nav-open {
 	display: none;
 }
 .desktop-nav .menu-link a {
-	font-size: 11px;
+	font-size: 12px;
 	text-transform: uppercase;
 	font-family: quasimoda, sans-serif;
 	font-weight: 700;
@@ -246,7 +247,12 @@ header.mobile-nav-open {
 
 
 
-
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
 
 section {
 	position:relative;
@@ -284,7 +290,6 @@ section {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 32px;
-	letter-spacing: 0.5px;
 }
 .btn {
 	width:225px;
@@ -325,9 +330,9 @@ section {
 	color: #ffffff;
 	font-size: 18px;
 	line-height: 45px;
-	letter-spacing: 0.5px;
+
 	width: 100%;
-	max-width: 620px;
+	max-width: 650px;
 	margin: auto
 }
 
@@ -343,7 +348,7 @@ section {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 45px;
-	letter-spacing: 0.5px;
+
 }
 
 .np-outer {
@@ -357,25 +362,28 @@ section {
 	color: #020050;
 	font-size: 20px;
 	font-weight: 700;
-	letter-spacing: 0.5px;
+
 }
 .np-membership-title {
 	color: #8BB0DA;
 	font-size: 18px;
 	font-weight: 700;
-	letter-spacing: 0.5px;
+
 }
 .np-bio, .np-membership {
 	color: #746F6F;
 	font-weight: 400;
-	letter-spacing: 0.5px;
 	line-height: 45px;
-}
-.np-bio {
-	font-size: 18px;
-}
-.np-membership {
 	font-size: 16px;
+}
+ul.np-membership {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.np-membership li{
+	line-height: 26px;
+	padding-bottom: 20px;
 }
 .np-photo img {
 	width: 268px;
@@ -412,6 +420,8 @@ section {
 	border-radius: 10px;
 	height: 155px;
 	width:100%;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 .service-title {
 	min-height: 116px;
@@ -423,39 +433,42 @@ section {
 
 ul.insurance-list {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+	padding: 0px 0px 20px;
+	color: #020050;
 }
 ul.insurance-list li{
-	font-size: 14px;
-	letter-spacing: 0.5px;
-	padding-bottom: 10px;
+	font-size: 17px;
+	padding: 0 30px 15px;
+	display: block;
 }
 
 footer {
 	background-color: #020050;
 	color:white;
-	font-size: 13px;
-	letter-spacing: 0.5px;
+	font-size: 14px;
 	line-height: 36px;
 	font-weight:400;
+	letter-spacing: 0.5px;
 }
 footer .divider {
 	margin: 5px auto 20px;
 }
-footer a {
+footer a, footer a:hover  {
 	color:white;
 	text-decoration: none;
 }
 .footer-title {
 	font-weight: 600;
-	font-size: 13px;
+	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 .copyright {
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 10px;
 	letter-spacing: 1px;
 }
