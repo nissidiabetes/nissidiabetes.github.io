@@ -125,12 +125,14 @@ header.mobile-nav-open {
 	z-index: 1;
 	visibility: visible;
 	margin-top: -100vh;
+	border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
 }
 .mobile-nav.menu-link-container .menu-link a {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-family: quasimoda, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 	letter-spacing: 2px;
 	color: white;
 	opacity:0;
@@ -142,6 +144,8 @@ header.mobile-nav-open {
 	visibility: visible;
 	-webkit-transition: all 0.6s ease-in;
 	transition: all 0.6s ease-in;
+	border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
 }
 .mobile-nav.menu-link-container.open .menu-link a{
 	opacity:1;
@@ -420,7 +424,7 @@ section {
 
 }
 .np-bio, .np-membership {
-	color: #746F6F;
+	color: #020050;
 	font-weight: 300;
 	line-height: 45px;
 	font-size: 16px;
