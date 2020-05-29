@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/styletest.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://use.typekit.net/snu8kbz.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <title>NISSI DIABETES</title>
@@ -57,21 +60,20 @@
 
   <!-- Mobile Nav -->
   <div class="mobile-nav menu-link-container">
-        <div class="menu-link">
-          <a href="#about" class="mobile-link">About</a>
-        </div>
-        <div class="menu-link mobile-link">
-          <a href="#services" class="mobile-link">Services</a>
-        </div>
-        <!--<div class="menu-link">
-          <a href="#">Education</a>
-        </div>-->
-        <div class="menu-link mobile-link">
-          <a href="#" class="mobile-link">Patient Portal</a>
-        </div>
-        <div class="menu-link mobile-link">
-          <a href="#contact" class="mobile-link">Contact</a>
-        </div>
+    <div class="mobile-nav-inner">
+      <div class="menu-link my-5 py-3">
+        <a href="#about" class="mobile-link">About</a>
+      </div>
+      <div class="menu-link my-5 py-3">
+        <a href="#services" class="mobile-link">Services</a>
+      </div>
+      <div class="menu-link my-5 py-3">
+        <a href="#" class="mobile-link">Patient Portal</a>
+      </div>
+      <div class="menu-link my-5 py-3">
+        <a href="#contact" class="mobile-link">Contact</a>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -82,9 +84,9 @@
 <section class="nissi-home">
   <div class="container h-100 d-flex flex-column flex-lg-row align-items-center justify-content-between">
     <div class="home-text pr-0 pr-lg-5 d-flex flex-column justify-content-center">
-      <h1 class="text-center text-lg-left headline-blue">Treat & manage your diabetes</h1>
-      <span class="tagline text-center text-lg-left px-5 px-lg-0 mb-2">Providing diabetes care & management in Amityville,&nbsp;NY</span>
-      <a href="tel:631-608-2878" class="btn tel d-flex justify-content-center align-items-center mx-auto mx-lg-0">(631) 608-2878</a>
+      <h1 class="text-center text-lg-left headline-blue" data-aos="fade-up" data-aos-duration="500">Treat & manage your diabetes</h1>
+      <span class="tagline text-center text-lg-left px-5 px-lg-0 mb-2" data-aos="fade-up" data-aos-duration="1000">Providing diabetes care & management in Amityville,&nbsp;NY</span>
+      <a href="tel:631-608-2878" class="btn tel d-flex justify-content-center align-items-center mx-auto mx-lg-0" data-aos="fade-up" data-aos-duration="1500">(631) 608-2878</a>
     </div>
     <div class="home-image">
       <img src="img/main-image.png" alt="" class="main-image d-none d-lg-block">
@@ -98,7 +100,7 @@
   <a class="anchor" id="about"></a>
   <!-- About -->
   <div class="about-outer w-100">
-    <div class="about container text-center py-4 py-lg-5">
+    <div class="about container text-center py-4 py-lg-5" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="250">
       <h2 class="headline-pink pt-5 mt-5 mt-lg-0">About</h2>
         <div class="divider divider-lightblue"></div>
       <p class="about-text pb-5 px-3">
@@ -109,12 +111,12 @@
   <!-- Mission/Vision -->
   <div class="mv-outer w-100 py-5">
     <div class="mv container d-flex flex-column flex-lg-row py-0 py-lg-3">
-      <div class="vision pl-0 pl-lg-4 mt-5 mt-lg-0">
+      <div class="vision pl-0 pl-lg-4 mt-5 mt-lg-0" data-aos="fade-up" data-aos-duration="500" data-aos-offset="250">
         <h4 class="headline-blue text-center text-lg-left">Vision</h4>
           <div class="divider divider-lightblue d-block d-lg-none my-4"></div>
         <p class="mb-lg-0 pr-lg-4 text-center text-lg-left px-3 px-lg-0">To help people with diabetes achieve optimal control of the disease, minimize complications and extend&nbsp;life.</p>
       </div>
-      <div class="mission pl-0 pl-lg-4 mt-5 mt-lg-0">
+      <div class="mission pl-0 pl-lg-4 mt-5 mt-lg-0" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="250">
         <h4 class="headline-blue text-center text-lg-left">Mission</h4>
           <div class="divider divider-pink d-block d-lg-none my-4"></div>
         <p class="mb-lg-0 text-center text-lg-left px-3 px-lg-0">Transform diabetes care for better health and prevent spreading of the disease by creating awareness through&nbsp;education.</p>
@@ -124,12 +126,12 @@
   <!-- Meet Your Np-->
   <div class="np-outer w-100 py-5">
     <div class="np container text-center py-4">
-      <h3 class="headline-blue">Meet Your NP!</h3>
+      <h3 class="headline-blue" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="250">Meet Your NP!</h3>
         <div class="divider divider-pink"></div>
     </div>
     <div class="np-info-outer container pb-4">
       <div class="np-info-inner d-flex flex-column-reverse flex-lg-row mx-auto">
-        <div class="np-info d-flex flex-column text-center text-lg-right px-3 pr-lg-5">
+        <div class="np-info d-flex flex-column text-center text-lg-right px-3 pr-lg-5" data-aos="fade-up" data-aos-duration="500" data-aos-offset="300">
           <p class="np-name pb-1 mb-3 mb-lg-0">Joyce Adedugbe</p>
           <p class="np-bio mb-5">Joyce is an Adult Nurse Practitioner with a passion for caring for people with diabetes. She is Board Certified in Advance Diabetes Management and is a Certified Diabetes Educator and Insulin Pump Trainer with extensive experience in diabetes care.</p>
           <p class="np-membership-title pb-1 mb-3 mb-lg-0">Professional Membership</p>
@@ -139,7 +141,7 @@
             <li>American Association of Diabetes&nbsp;Educators</li>
           </ul>
         </div>
-        <div class="np-photo h-100 pl-0 pl-lg-5">
+        <div class="np-photo h-100 pl-0 pl-lg-5" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
           <img src="img/joyceadedugbe.png" alt="" class="mx-auto mb-5 m-lg-0 d-block">
         </div>
       </div>
@@ -153,50 +155,50 @@
   <div class="services-outer w-100"></div>
   <div class="services-inner w-100 position-relative">
     <div class="container text-center pt-4 pt-lg-5">
-      <h2 class="headline-blue pt-5 mt-2 mt-lg-0">Services</h2>
+      <h2 class="headline-blue pt-5 mt-2 mt-lg-0" data-aos="fade-up">Services</h2>
         <div class="divider divider-lightblue"></div>
     </div>
     <div class="services container pb-4 pb-lg-5">
-      <div class="service-frame mb-5">
+      <div class="service-frame mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="250">
         <div class="service-frame-inner w-100 d-flex flex-column flex-lg-row">
           <div class="service-img divider-blue d-flex flex-row justify-content-center align-items-center">
             <img src="img/services-img1.png" alt="" class="">
           </div>
           <div class="service-title p-4 py-lg-4 px-lg-5 d-flex flex-row align-items-center">
-            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0">Diabetes Consultation & Treatment Management</h4>
+            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0 mb-0">Diabetes Consultation & Treatment Management</h4>
           </div>
         </div>
       </div>
 
-      <div class="service-frame mb-5">
+      <div class="service-frame mb-5" data-aos="fade-up" data-aos-duration="1200" data-aos-offset="250">
         <div class="service-frame-inner w-100 d-flex flex-column flex-lg-row">
           <div class="service-img divider-lightblue d-flex flex-row justify-content-center align-items-center">
             <img src="img/services-img2.png" alt="" class="">
           </div>
           <div class="service-title p-4 py-lg-4 px-lg-5 d-flex flex-row align-items-center">
-            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0">Obesity Management</h4>
+            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0 mb-0">Obesity Management</h4>
           </div>
         </div>
       </div>
 
-      <div class="service-frame mb-5">
+      <div class="service-frame mb-5" data-aos="fade-up" data-aos-duration="1300" data-aos-offset="250">
         <div class="service-frame-inner w-100 d-flex flex-column flex-lg-row">
           <div class="service-img divider-pink d-flex flex-row justify-content-center align-items-center">
             <img src="img/services-img3.png" alt="" class="">
           </div>
           <div class="service-title p-4 py-lg-4 px-lg-5 d-flex flex-row align-items-center">
-            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0">Medical Nutrition Therapy</h4>
+            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0 mb-0">Medical Nutrition Therapy</h4>
           </div>
         </div>
       </div>
 
-      <div class="service-frame">
+      <div class="service-frame" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="250">
         <div class="service-frame-inner w-100 d-flex flex-column flex-lg-row">
           <div class="service-img divider-blue d-flex flex-row justify-content-center align-items-center">
             <img src="img/services-img4.png" alt="" class="">
           </div>
           <div class="service-title p-4 py-lg-4 px-lg-5 d-flex flex-row align-items-center">
-            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0">In Office Visit & Telemedicine</h4>
+            <h4 class="headline-blue text-center text-lg-left mx-auto mx-0 mb-0">In Office Visit & Telemedicine</h4>
           </div>
         </div>
       </div>
@@ -207,7 +209,7 @@
 
 
 <section class="nissi-insurance pb-4">
-  <div class="insurance-outer container py-4 py-lg-5">
+  <div class="insurance-outer container py-4 py-lg-5" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="250">
     <h4 class="headline-blue text-center mt-4 mt-lg-0">Insurances Accepted</h4>
       <div class="divider divider-pink"></div>
     <ul class="insurance-list text-center">
@@ -267,7 +269,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 
-
+    <script>
+      AOS.init();
+    </script>
 
 
   </body>

@@ -118,7 +118,7 @@ header.mobile-nav-open {
 	left:0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	padding: 130px 0 50px;
   -webkit-transition: all 0.3s ease-out 0.3s;
   transition: all 0.3s ease-out 0.3s;
