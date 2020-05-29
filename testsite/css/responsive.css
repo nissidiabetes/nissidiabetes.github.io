@@ -16,14 +16,14 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  h1, h2 {font-size:50px;}
+  h1 {font-size:54px;}
+  h2 {font-size:50px;}
 
 
 
    header {height: 120px;}
    .hamburger{display:none;}
    .desktop-nav.menu-link-container {width: auto;background:white;text-align: center;height: auto;position: relative;top:0;left:0;display: flex;flex-direction: row;padding: 0px;}
-   /*.mobile-nav.menu-link-container {display: none;}*/
 
    a.anchor {top: -120px;}
 

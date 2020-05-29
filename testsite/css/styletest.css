@@ -75,7 +75,7 @@ header {
 	z-index: 50;
 	-webkit-transition: all 0.3s ease-out 0.2s;
 	transition: all 0.3s ease-out 0.2s;
-	border-bottom: 0.5px solid #eee;
+	border-bottom: 1px solid #eee;
 }
 header.mobile-nav-open {
 	background:#020050;
@@ -286,14 +286,14 @@ section {
 }
 
 .tagline {
-	color: #020050;
+	color: #555;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 100;
 	line-height: 32px;
 }
 .btn {
 	width:225px;
-	height:45px;
+	height:55px;
 	border-radius: 50px;
 	font-size: 14px;
 	line-height: 14px;
@@ -303,9 +303,8 @@ section {
 
 }
 .tel {
-	width: 210px;
-	background-color: #FBB2AB;
-	color: #0C0C7B;
+	background-color: #0C0C7B;
+	color: white;
 }
 .main {
 	padding:90px 0 0px;
@@ -328,7 +327,7 @@ section {
 }
 .about-text {
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 45px;
 
 	width: 100%;
