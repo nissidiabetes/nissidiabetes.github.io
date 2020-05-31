@@ -1,44 +1,32 @@
 @charset "utf-8";
 
 
-
-
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
- }
+@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
-
+@media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  h1 {font-size:54px;}
-  h2 {font-size:50px;}
+    h1 {font-size:54px;}
+    h2 {font-size:50px;}
+    a.anchor {top: -120px;}
 
-
-
-   header {height: 120px;}
-   .hamburger{display:none;}
-   .desktop-nav.menu-link-container {width: auto;background:white;text-align: center;height: auto;position: relative;top:0;left:0;display: flex;flex-direction: row;padding: 0px;}
-
-   a.anchor {top: -120px;}
+    header {height: 120px;}
+    .hamburger{display:none;}
+    .desktop-nav.menu-link-container {width: auto;background:white;text-align: center;height: auto;position: relative;top:0;left:0;display: flex;flex-direction: row;padding: 0px;}
 
    .nissi-home {padding-top: 120px;}
-
    .tagline {font-size:20px;}
    .home-text{height: auto;}
-
 
    .vision, .mission {width:50%;}
    .vision p, .mission p {line-height: 30px;font-size: 17px;}
    .vision {border-left:2px solid #8BB0DA;}
    .mission {border-left:2px solid #FBB2AB;}
    ul.np-membership li{padding-bottom: 0px;}
-
    .np-bio, .np-membership {line-height: 24px;font-size: 16px;color:#777;}
    .np-name {font-size: 18px;}
    .np-membership-title {font-size: 16px;}
@@ -50,6 +38,4 @@
 }
 
 /* Medium devices (tablets, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
