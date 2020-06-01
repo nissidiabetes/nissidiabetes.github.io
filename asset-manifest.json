@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c362f32.chunk.css",
+    "main.js": "/static/js/main.6b6f0d4d.chunk.js",
+    "main.js.map": "/static/js/main.6b6f0d4d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.87e21e58.js",
+    "runtime-main.js.map": "/static/js/runtime-main.87e21e58.js.map",
+    "static/css/2.cb62e89c.chunk.css": "/static/css/2.cb62e89c.chunk.css",
+    "static/js/2.43d10705.chunk.js": "/static/js/2.43d10705.chunk.js",
+    "static/js/2.43d10705.chunk.js.map": "/static/js/2.43d10705.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.48f287c2a4c7fabd16ca48379db5de25.js": "/precache-manifest.48f287c2a4c7fabd16ca48379db5de25.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.cb62e89c.chunk.css.map": "/static/css/2.cb62e89c.chunk.css.map",
+    "static/css/main.2c362f32.chunk.css.map": "/static/css/main.2c362f32.chunk.css.map",
+    "static/js/2.43d10705.chunk.js.LICENSE.txt": "/static/js/2.43d10705.chunk.js.LICENSE.txt",
+    "static/media/joyceadedugbe.png": "/static/media/joyceadedugbe.663cc443.png",
+    "static/media/main-image-mobile.png": "/static/media/main-image-mobile.6481796e.png",
+    "static/media/main-image.png": "/static/media/main-image.cf7a9ae9.png",
+    "static/media/nissi-logo.png": "/static/media/nissi-logo.7aef9929.png",
+    "static/media/services-img1.png": "/static/media/services-img1.ba1a112d.png",
+    "static/media/services-img2.png": "/static/media/services-img2.73e2a42f.png",
+    "static/media/services-img3.png": "/static/media/services-img3.747e8675.png",
+    "static/media/services-img4.png": "/static/media/services-img4.e7e4b33f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87e21e58.js",
+    "static/css/2.cb62e89c.chunk.css",
+    "static/js/2.43d10705.chunk.js",
+    "static/css/main.2c362f32.chunk.css",
+    "static/js/main.6b6f0d4d.chunk.js"
+  ]
+}
